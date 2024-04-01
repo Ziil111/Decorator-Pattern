@@ -2,7 +2,7 @@ class StudyBehavior {
     study() {
         throw new Error("This method must be implemented by subclasses");
     }
-}
+};
 
 class SimpleStudy extends StudyBehavior {
     study() {
